@@ -5,15 +5,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>MithunTechnologies- Home Page</title>
-<link href="images/mithunlogo.jpg" rel="icon">
+<!-- <link href="images/mithunlogo.jpg" rel="icon"> -->
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Mithun Technologies</h1>
-<h1 align="center">Phone Number: +91 998092216</h1>
-<h1 align="center">Mithun Technologies is a Very Good Training Center for DevOps, Cloud, Kubernetes and Terraform</h1>
+<h1 align="center">AWS DevOps Real-Time Deployment Demo</h1>
+<h1 align="center">Phone Number: +91 1234567890</h1>
+<h1 align="center">it will show the pod ip that is changing when load is increasing</h1>
 
-<h1 align="center">Trainer Name: Bhaskar Reddy Lacchannagari</h1>
+<h1 align="center">Name : armaan </h1>
 
 <hr>
 <br>
@@ -35,7 +35,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
+	
 	</span>
 	<span style="font-weight: bold;">
 		Mithun Technologies, 
