@@ -4,55 +4,94 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Aws Demo- Home Page</title>
-<!-- <link href="images/mithunlogo.jpg" rel="icon"> -->
+<title>Java DevOps Demo Application</title>
 </head>
-</head>
-<body>
-<h1 align="center">AWS DevOps Real-Time Deployment Demo</h1>
-<h1 align="center">Phone Number: +91 1234567890</h1>
-<h1 align="center">it will show the pod ip that is changing when load is increasing</h1>
 
-<h1 align="center">Name : armaan </h1>
+<body>
+
+<h1 align="center">Java DevOps CI/CD Deployment Demo</h1>
+<h1 align="center">AWS | Docker | Jenkins | Kubernetes | Terraform</h1>
+<h1 align="center">Real-Time Pod Auto Scaling Demonstration</h1>
+
+<h1 align="center">Engineer : Armaan</h1>
 
 <hr>
 <br>
-	<h1><h3> Server Side IP Address </h3><br>
 
-<% 
+<h1><h3> Server Side Information </h3><br>
+
+<%
 String ip = "";
 InetAddress inetAddress = InetAddress.getLocalHost();
 ip = inetAddress.getHostAddress();
-out.println("Server Host Name :: "+inetAddress.getHostName()); 
+out.println("Server Host Name :: " + inetAddress.getHostName());
 %>
+
 <br>
-<%out.println("Server IP Address  :: "+ip);%>
+
+<%
+out.println("Server IP Address :: " + ip);
+%>
+
 </h1>
+
 <br>
-<h1><h3> Client Side IP Address </h3><br>
-<%out.print( "Client IP Address  :: "+request.getRemoteAddr()); %><br>
-<%out.print( "Client Name Host :: "+request.getRemoteHost() );%><br></h1>
+
+<h1><h3> Client Side Information </h3><br>
+
+<%
+out.print("Client IP Address :: " + request.getRemoteAddr());
+%>
+
+<br>
+
+<%
+out.print("Client Host Name :: " + request.getRemoteHost());
+%>
+
+<br>
+
+</h1>
+
 <hr>
+
 <div style="text-align: center;">
-	<span>
-	
-	</span>
-	<span style="font-weight: bold;">
-		Mithun Technologies, 
-		Marathahalli,
-		Bengaluru,
-		+91 9980923216 and 
-		Devopstrainingblr@Gmail.com
-		<br>
-		<a href="mailto:Devopstrainingblr@Gmail.com">Mail to Mithun Technologies</a>
-	</span>
+    <span style="font-weight: bold;">
+
+        Java Web Application Demo Project
+        <br>
+
+        Continuous Integration and Continuous Deployment
+        <br>
+
+        Containerized Deployment on Kubernetes Cluster
+        <br>
+
+        Powered by Jenkins Pipeline and AWS Cloud
+
+    </span>
 </div>
+
 <hr>
-	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
+
+<p>
+Service :
+<a href="services/employee/getEmployeeDetails">
+Get Employee Details
+</a>
+</p>
+
 <hr>
-<hr>
-<p align=center>Mithun Technologies - Consultant, Training and Development Center.</p>
-<p align=center><small>Copyrights 2025 by <a href="http://mithuntechnologies.com/">Mithun Technologies,Bengaluru</a> </small></p>
+
+<p align="center">
+DevOps Real-Time Project Demonstration
+</p>
+
+<p align="center">
+<small>
+Copyright © 2026 Java DevOps Demo Application
+</small>
+</p>
 
 </body>
 </html>
