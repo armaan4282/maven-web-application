@@ -67,7 +67,7 @@ pipeline {
                 kubectl rollout status deployment/webpage-deployment -n production
                 '''
             }
-        }
+        }  // stages closing
 
     }
-}
+}  // pipelineclosing
