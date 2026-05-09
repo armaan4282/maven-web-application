@@ -11,7 +11,7 @@
 
 <h1 align="center">Java DevOps CI/CD Deployment Demo</h1>
 <h1 align="center">AWS | Docker | Jenkins | Kubernetes | Terraform</h1>
-<h1 align="center">Real-Time Pod Auto Scaling Demonstration</h1>
+<h1 align="center">Real-Time Pod Auto Scaling Demonstration...</h1>
 
 <h1 align="center">Engineer : Armaan</h1>
 
